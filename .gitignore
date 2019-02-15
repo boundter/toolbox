@@ -33,3 +33,7 @@
 
 # CMake
 build/*
+
+# Doxygen
+doc/*
+!doc/Doxyfile
