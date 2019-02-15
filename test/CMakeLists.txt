@@ -9,7 +9,10 @@ if(BUILD_TESTS)
 
   add_executable(test_math.x test_math.cpp)
   target_link_libraries(test_math.x test_main toolbox Catch)
-
   add_test(Math test_math.x)
+
+  add_executable(test_vector.x test_vector.cpp)
+  target_link_libraries(test_vector.x test_main toolbox Catch)
+  add_test(Vector test_vector.x)
 
 endif()
