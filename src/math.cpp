@@ -1,3 +1,5 @@
+// Copyright 2019 Erik Teichmann <kontakt.teichmann@gmail.com>
+
 #include <toolbox/math.hpp>
 
 namespace tb = toolbox;
