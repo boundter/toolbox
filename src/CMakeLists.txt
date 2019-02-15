@@ -5,7 +5,7 @@ set(header
     ${header_path}/math.hpp)
 
 set(source
-    toolbox/math.cpp)
+    math.cpp)
 
 add_library(toolbox ${source})
 target_include_directories(toolbox PUBLIC ${header_path})
